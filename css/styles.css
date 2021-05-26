@@ -1,0 +1,128 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800 italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	max-height: 520;
+}
+#body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background: url("pic8.jpg") top no-repeat;
+    border:solid 6px;
+    border-color: #F9EDC7;
+    background-size: 100%,100%;
+    align-content: center;
+}
+#start{
+	height:75%;
+	width:300px;
+	background-color:#212121;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-radius:50px 25px;
+	border-color:#244661;
+	margin-left: 750px;
+	margin-right: 30px;
+	align-content: center;
+	border:solid 2.5px;
+	border-color: #F9EDC7;
+}
+#start p{
+	color: #F9EDC7;
+	text-align: center;
+	font-size:20px;
+	font-weight:600;
+	margin-top: 27px;
+	padding-top: 25px;
+	margin-left: 20px;
+	padding-bottom:15px;
+}
+h1{
+	margin-left:45px;
+	color:#F9EDC7;
+	font-size: 35px;
+	text-align:center;
+	margin-top: 30px;
+}
+#fild {
+
+	border: medium none !important;
+	margin: 0 0 5px;
+	padding: 0;
+	width: 100%;
+}
+#fild a{
+	font-size:15px;
+	color:#F9EDC7;
+	margin-left: 40px;
+	
+}
+#fild input[type="text"], #fild input[type="password"] {
+	color:black;
+ font:800  "Open Sans", Helvetica, Arial, sans-serif; 
+font-size:14px;
+border-radius: 2em 1em 4em / 0.5em 3em; 
+}
+#fild input[type="text"], #fild input[type="password"] {
+	outline-style: none;
+	border:1px solid #F9EDC7;
+	width:75%;
+	color:black;
+	border-radius: 50em 25em !important;
+	text-align:center;
+	background-color: white;
+	margin-left:40px;
+	margin-right:10px;
+	margin-bottom:20px;
+	padding:10px;
+}
+#fild input[type="text"]:focus, #fild input[type="password"]:focus{
+	background-color:#F9EDC7;
+	font-size: 17px;
+	font-color:black;
+	}
+#fild input[type="text"]:hover,#fild input[type="password"]:hover {
+	transition:border-color 0.3s ease-in-out;
+	border:3px solid #F9EDC7;
+}
+#fild button[type="submit"] {
+	width: 40%;
+	cursor:pointer;
+	font-size:15px;
+    font-weight:500;
+    color:black;
+    margin-top:30px;
+    margin-left:85px;
+    margin-bottom: 20px;
+    height: 35px;
+    text-align: center;
+    background-color:#F9EDC7;
+}
+#fild button[type="submit"]:hover {
+	background-color:white;
+	transition:background-color 0.3s ease-in-out;
+}
+#fild button[type="submit"]:active
+{box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+label{
+	color:#F9EDC7;
+	font-size: 20px;
+	margin-left: 25px;
+}
+select{
+	height: 28px;
+	width: 100px;
+	background-color: #F9EDC7;
+	font-size: 17px;
+	padding-left: 10px;
+	margin-top: 15px;
+	letter-spacing: 1.5px;
+}

@@ -1,0 +1,25 @@
+body{
+
+	background:url(new.jpg) no-repeat center center fixed;
+	background-size: cover;
+	 font-family: 'Crimson Pro', serif;
+}
+.rowheight{
+	height: 200px;
+}
+.bg{
+	background-color: #6078C7FF;
+	opacity: 0.6;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+.footer{
+	background-color: #fff;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	
+}

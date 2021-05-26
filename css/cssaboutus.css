@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800 italic,400,300,600');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	max-height: 600px;
+}
+body{
+	color:black;
+}
+header{
+	background-color: #087056;
+}
+header h3{
+	color:white;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+header hr{
+	color:  white;
+	width:97%;
+	text-align: left;
+	margin-left:15px;
+}
+header h3:first-letter  {
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-size:170%;
+  color:red;
+}
+header h3 img{
+	background-color: transparent;
+	margin-top: 0;
+	height: 100px;
+	width: 120px;
+	margin-top: 10px;
+	margin-left:50px;
+	margin-right: 100px;
+}
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 50px;
+  overflow: hidden;
+}
+#navigation li {
+  float: left;
+}
+
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-right: 100px;
+  padding-left: 50px;
+  border-right: 1.5px solid  white;
+  text-decoration: none;
+}
+#adver{
+  height: 240px;
+}
+#adver ul {
+  margin-left:40px;
+  margin-top:20px;
+  list-style:none;
+  position:relative;
+}
+#adver ul li{
+
+  margin-top:20px;
+  padding:0;
+}
+#adver #one  {
+  margin:0;
+  text-align:center;
+  color:#0E0301;
+  font-size:20px;
+  font-weight:300;
+  padding:0;
+  float:left;
+  width:400px;
+
+}
+#adver #two{
+  margin-top: 20px;
+  padding:0;
+  text-align:center;
+  color:#0E0301;
+  font-size:20px;
+  font-weight:300;
+  margin-left:300px;
+  float:left;
+  width:400px;
+}
+#adver #three{
+  width:95%;
+  margin-left: 15px;
+}
+#adver hr {
+  width:80%;
+  margin-left: 70px;
+}
